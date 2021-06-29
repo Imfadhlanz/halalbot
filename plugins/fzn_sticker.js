@@ -30,7 +30,7 @@
 							fs.unlinkSync(file_fzn)
                             gas = new Buffer.from(body, 'binary')
 							bas64 = `data:image/jpeg;base64,${gas.toString('base64')}`
-							Kirim.GambarJadiStiker(from, bas64, msg, {author: 'Fazone', pack: 'SELF'})
+							Kirim.GambarJadiStiker(from, bas64, msg, {author: 'Fadhlan', pack: 'SELF'})
                         });
                     } else {
                         reply(`Kirim gambar dengan caption ${prefix + command} atau tag gambar yang sudah dikirim`)
