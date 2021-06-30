@@ -8,6 +8,9 @@ var menu = `◪ *INFO*
 ❏ Nama : ${pushname}
 ❏ Mode : ${mode}
 ❏ Runtime : ${cts}
+❏ Donate : 6285156331734 [ DANA ]
+❏ Buat Beli Server:v
+❏Request Fitur Ke ; wa.me/6285156331734
 
 *❏ Owner*
 *| ◪ ${prefix}setfake [ query ]*
@@ -38,6 +41,45 @@ var menu = `◪ *INFO*
 *| ◪ ${prefix}play [ query ]*
 *| ◪ ${prefix}ig [ link ]*
 *| ◪ ${prefix}fb [ link ]*
+*| ◪ ${prefix}ytplay [ link ]*
+*| ◪ ${prefix}ytsearch[ link ]*
+*| ◪ ${prefix}ytmp3 [ link ]*
+*| ◪ ${prefix}pinterest [ link ]*
+*| ◪ ${prefix}tiktodnowm[ link ]*
+
+*❏ Islami*
+*| ◪ ${prefix}jadwalsholat [ daerah ]*
+*| ◪ ${prefix}alquran [ query ]*
+*| ◪ ${prefix}alquranaudio [ query ]*
+*| ◪ ${prefix}kisahnabi [ query ]*
+*| ◪ ${prefix}listsurah [ query ]*
+*| ◪ ${prefix}asmaulhusna [ query ]*
+
+*❏ Informasi*
+*| ◪ ${prefix}kbbi [ query ]*
+*| ◪ ${prefix}brainly2 [ query ]「PERBAIKAN」*
+*| ◪ ${prefix}jarak[ query ]*
+*| ◪ ${prefix}mlstalk [ query ]*
+*| ◪ ${prefix}translate [ query ]「PERBAIKAN」*
+*| ◪ ${prefix}lirik [ query ]*
+*| ◪ ${prefix}cuaca [ query ]*
+*| ◪ ${prefix}covidindo [ query ]*
+*| ◪ ${prefix}covidglobal [ query ]*
+*| ◪ ${prefix}kodepos [ query ]*
+*| ◪ ${prefix}jadwalbola [ query ]*
+*| ◪ ${prefix}hoax [ query ]*
+
+*❏ Movie & Story By Fadhlan Gans*
+*| ◪ ${prefix}lk21 [ query ]*
+*| ◪ ${prefix}drakorongoing [ query ]*
+*| ◪ ${prefix}wattpad [ query ]* 「PERBAIKAN」
+*| ◪ ${prefix}wattpadsearch [ query ]* 「PERBAIKAN」
+*| ◪ ${prefix}cerpen [ query ]*
+*| ◪ ${prefix}ceritahoror [ query ]*
+
+*❏ Searching 🔍*
+*| ◪ ${prefix}google [ query ]*
+*| ◪ ${prefix}stickerwa [ query ]*
 
 *❏ Group*
 *| ◪ ${prefix}hidetag [ query ]*

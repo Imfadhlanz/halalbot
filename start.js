@@ -20,12 +20,12 @@ const color = (text, color) => {
  
 //BANNER
 console.clear()
-CFonts.say('FADHLANGANX', {
+CFonts.say('FADHLAN BOTZ', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`SELF WA BOT BY FADHLAN\nDonate Gw Anj :v`, {
+CFonts.say(`SELF WA BOT BY FADHLAN\nJust For Fun :v`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -37,7 +37,7 @@ nocache('./handler.js', module => console.log(`${module} Telah Di Perbarui Silah
 const start = async (sesi) => {
 	const fzn = new WAConnection()
 	global.fzn = fzn
-	fzn.browserDescription = ['Fazone','browser','9999']
+	fzn.browserDescription = ['MhmdFadhlan','browser','9999']
 	fzn.version = [2, 2119, 6]
     fzn.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), 'SCAN QR TO CONNECT')

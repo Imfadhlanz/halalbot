@@ -12,7 +12,7 @@
                 case 'romance':
                 case 'smoke':
                 case 'burnpaper':
-                case 'lovemessage':
+                case 'laovemessage':
                 case 'undergrass':
                 case 'love':
                 case 'coffe':
@@ -31,7 +31,7 @@
                 case 'harrypotter':
                 case 'carvedwood':
 					reply(warn.mess.wait)
-                    if (args.length == 0) return reply(`Example: ${prefix + command} Adul Alhy`)
+                    if (args.length == 0) return reply(`Example: ${prefix + command} Fadhlan Ganz`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${LolApi}&text=${ini_txt}`).then((gambar) => {
                         fzn.sendMessage(from, gambar, image, { quoted: msg })
@@ -39,7 +39,7 @@
                     break
                 case 'glitch':
 					reply(warn.mess.wait)
-				 if (args.length == 0) return reply(`Example: ${prefix + command} Adul Alhy`)
+				 if (args.length == 0) return reply(`Example: ${prefix + command} Fadhlan Ganz`)
                     txt1 = args[0]
                     txt2 = args[1]
                     req = `https://fazone-api.herokuapp.com/api/photooxy/glitch?text=${txt1}&text2=${txt2}&apikey=${apikey}`
@@ -50,7 +50,7 @@
                 case 'battlefield4':
                 case 'pubg':
 					reply(warn.mess.wait)
-                    if (args.length == 0) return reply(`Example: ${prefix + command} Adul Alhy`)
+                    if (args.length == 0) return reply(`Example: ${prefix + command} Fadhlan Ganz`)
                     txt1 = args[0]
                     txt2 = args[1]
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=${LolApi}&text1=${txt1}&text2=${txt2}`).then((gambar) => {

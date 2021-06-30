@@ -46,7 +46,7 @@ isCharge: "" || false}
 
 ///Function
 selfna = true
-fakenya = 'FADHLANX'
+fakenya = 'FADHLANZ'
 apikey = 'GaluhTbit'
 LolApi = 'genbotkey' //beli apikey di api.lolhuman.xyz//
 var AFK = {
@@ -236,7 +236,10 @@ module.exports = fzn = async (fzn, msg) => {
 	  baterai.battery = `${persenbat}%`
 	  baterai.isCharge = json[2][0][1].live
 	  baterai.powersave = json[2][0][1].powersave
-})
+        })
+
+        batrenya = baterai.isCharge ? 'C H A R G I N G' : 'N O T  C H A R G I N G'
+        casnya = baterai.powersave ? 'O N' : 'O F F'
 		
 	} catch (e) {
     e = String(e)
