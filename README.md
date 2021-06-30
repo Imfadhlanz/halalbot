@@ -1,6 +1,6 @@
 ## Hai Tod<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Gue Fadhlan
 <p align="center">
-<p align='center'><a href="https://instagram.com/alfaqirfadl"><img height="200" src="https://i.postimg.cc/c1T1wr3p/frame.png"></a>&nbsp;&nbsp;</p>
+<p align='center'><a href="https://instagram.com/alfaqirfadl"><img height="250" src="https://i.postimg.cc/02PzpTr4/IMG-20210630-205339-660.jpg"></a>&nbsp;&nbsp;</p>
 </p>
 <br>
 <p align="center">
@@ -28,6 +28,8 @@ Masih bingung juga? PM ig w aja.
 
 ## DONASI GW KEK <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * [`Donasi Lah klik ini`](http://bit.ly/dukungfadhlan)
+<p align="center"><img height="300" src="https://i.postimg.cc/c1T1wr3p/frame.png"></a>&nbsp;&nbsp;</p>
+</p>
 
 ## SOSIAL MEDIA GW<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
 
@@ -39,9 +41,9 @@ Masih bingung juga? PM ig w aja.
 ## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
 * [`ALLAH SWT`]
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsoH8nTM4cCD6e5y0gkIH3ow-MyrCbXfdS4A&usqp=CAU" alt="MR" width="600"/>
-
+<br>
 * [`MEMBER OF MAJELIS ROSULULLAH GRUP WA`]
-
+<br><br>
 
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
 
