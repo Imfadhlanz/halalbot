@@ -25,8 +25,8 @@ var menu = `◪ *INFO*
 *| ◪ ${prefix}public* 
 
 *❏ Sticker*
-*| ◪ ${prefix}sticker [ reply ]*
-*| ◪ ${prefix}snobg [ reply ]*
+*| ◪ ${prefix}stiker [ reply ]*
+*| ◪ ${prefix}snobg [ reply stikernya ]*
 *| ◪ ${prefix}scircle [ reply ]* 
 *| ◪ ${prefix}sfirewm [ reply ]* 
 *| ◪ ${prefix}trigger [ reply ]* 
@@ -39,12 +39,12 @@ var menu = `◪ *INFO*
 *| ◪ ${prefix}rain [ reply ]* 
 
 *❏ Downloader*
-*| ◪ ${prefix}play [ query ]*
+*| ◪ ${prefix}play [ teks ]*
 *| ◪ ${prefix}ig [ link ]*
 *| ◪ ${prefix}fb [ link ]*
 *| ◪ ${prefix}ytplay [ link ]*
 *| ◪ ${prefix}ytsearch[ link ]*
-*| ◪ ${prefix}ytmp3 [ link ]*
+*| ◪ ${prefix}ytmp3 [ link ] 「PERBAIKAN」*
 *| ◪ ${prefix}pinterest [ link ]*
 *| ◪ ${prefix}tiktodnowm[ link ]*
 
@@ -62,7 +62,7 @@ var menu = `◪ *INFO*
 *| ◪ ${prefix}jarak[ query ]*
 *| ◪ ${prefix}mlstalk [ query ]*
 *| ◪ ${prefix}translate [ query ]「PERBAIKAN」*
-*| ◪ ${prefix}lirik [ query ]*
+*| ◪ ${prefix}lirik [ query ] 「PERBAIKAN」*
 *| ◪ ${prefix}cuaca [ query ]*
 *| ◪ ${prefix}covidindo [ query ]*
 *| ◪ ${prefix}covidglobal [ query ]*
@@ -99,7 +99,7 @@ var menu = `◪ *INFO*
 *| ◪ ${prefix}beautiful [ reply foto ]*
 *| ◪ ${prefix}mintframe [ reply foto ]*
 
-*❏ Text Maker*
+*❏ Text Maker Buat Teks Keren*
 *| ◪ ${prefix}cup [ query ]*
 *| ◪ ${prefix}cup1 [ query ]*
 *| ◪ ${prefix}romance [ query ]*
@@ -162,7 +162,7 @@ var menu = `◪ *INFO*
 *| ◪ ${prefix}sfiledl [ link ]*
 *| ◪ ${prefix}ssweb [ link ]*
 `
-Kirim.FakeStatus(from, menu, fakenya)
+Kirim.FakeGroup(from, menu, fakenya)
  break
 			case 'setfake':
 				if(!q) return reply('Masukan Teksnya kak :v')
