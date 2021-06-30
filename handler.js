@@ -46,7 +46,7 @@ isCharge: "" || false}
 
 ///Function
 selfna = true
-fakenya = 'FADHLAN GANs'
+fakenya = 'FADHLANZ'
 apikey = 'GaluhTbit'
 LolApi = 'genbotkey' //beli apikey di api.lolhuman.xyz//
 var AFK = {
