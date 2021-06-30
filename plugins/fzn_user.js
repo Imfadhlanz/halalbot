@@ -72,8 +72,8 @@ var menu = `◪ *INFO*
 *❏ Movie & Story By Fadhlan Gans*
 *| ◪ ${prefix}lk21 [ query ]*
 *| ◪ ${prefix}drakorongoing [ query ]*
-*| ◪ ${prefix}wattpad [ query ]* 「PERBAIKAN」
-*| ◪ ${prefix}wattpadsearch [ query ]* 「PERBAIKAN」
+*| ◪ ${prefix}wattpad [ query ] 「PERBAIKAN」*
+*| ◪ ${prefix}wattpadsearch [ query ] 「PERBAIKAN」*
 *| ◪ ${prefix}cerpen [ query ]*
 *| ◪ ${prefix}ceritahoror [ query ]*
 
