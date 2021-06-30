@@ -4,6 +4,7 @@ case 'menu':
 case 'help':
 const mode = selfna ? 'SELF': 'PUBLIC'
 var menu = `◪ *INFO*
+❏ *BOT HALAL VERSION*
 ❏ Prefix: 「MULTI」
 ❏ Nama : ${pushname}
 ❏ Mode : ${mode}
