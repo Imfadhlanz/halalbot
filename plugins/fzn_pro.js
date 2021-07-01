@@ -393,10 +393,69 @@ case 'botstat':
                         ini_buffer = await getBuffer(`https://api.lolhuman.xyz/api/convert/towebp?apikey=${LolApi}&img=${x}`)
                         await fzn.sendMessage(from, ini_buffer, sticker)
                     }
-                    break
+                    break 
+                    case 'translate':
+                    if (args.length == 0) return reply(`Example: ${prefix + command} en Tahu Bacem`)
+                    kode_negara = args[0]
+                    args.shift()
+                    ini_txt = args.join(" ")
+                    get_result = await getJson(`https://api.lolhuman.xyz/api/translate/auto/${kode_negara}?apikey=${LolApi}&text=${ini_txt}`)
+                    get_result = get_result.result
+                    init_txt = `From : ${get_result.from}\n`
+                    init_txt += `To : ${get_result.to}\n`
+                    init_txt += `Original : ${get_result.original}\n`
+                    init_txt += `Translated : ${get_result.translated}\n`
+                    init_txt += `Pronunciation : ${get_result.pronunciation}\n`
+                    reply(init_txt)
+                    break 
+                    // entertainment //
+                    case 'asupan':
+                    get_result = await getJson(`https://api.lolhuman.xyz/api/asupan?apikey=${LolApi}`)
+                    ini_buffer = await getBuffer(get_result.result)
+                    await fzn.sendMessage(from, ini_buffer, video, { quoted: msg, mimetype: Mimetype.mp4, filename: "asupan.mp4" })
+                    break 
+                    case 'brainly':
+                    if (args.length == 0) return reply(`Example: ${prefix + command} Soekarno adalah`)
+                    query = args.join(" ")
+                    get_result = await getJson(`https://api.lolhuman.xyz/api/brainly?apikey=${LolApi}&query=${query}`)
+                    get_result = get_result.result
+                    ini_txt = "Result : \n"
+                    for (var x of get_result) {
+                        ini_txt += `${x.title}\n`
+                        ini_txt += `${x.url}\n\n`
+                    }
+                    reply(ini_txt)
+                    break 
+                    // gabut //
+                    case 'jadian':
+                    if (args.length == 0) return reply(`Example: ${prefix + command} 12 12 2020`)
+                    tanggal = args[0]
+                    bulan = args[1]
+                    tahun = args[2]
+                    get_result = await getJson(`https://api.lolhuman.xyz/api/jadian/${tanggal}/${bulan}/${tahun}?apikey=${LolApi}`)
+                    get_result = get_result.result
+                    ini_txt = `Karakteristik : ${get_result.karakteristik}\n`
+                    ini_txt += `Deskripsi : ${get_result.deskripsi}`
+                    reply(ini_txt)
+                    break 
+                    // Joox Play
+                    case 'jooxplay':
+                    if (args.length == 0) return reply(`Example: ${prefix + command} Melukis Senja`)
+                    query = args.join(" ")
+                    get_result = await getJson(`https://api.lolhuman.xyz/api/jooxplay?apikey=${LolApi}&query=${query}`)
+                    get_result = get_result.result
+                    ini_txt = `Title : ${get_result.info.song}\n`
+                    ini_txt += `Artists : ${get_result.info.singer}\n`
+                    ini_txt += `Duration : ${get_result.info.duration}\n`
+                    ini_txt += `Album : ${get_result.info.album}\n`
+                    ini_txt += `Uploaded : ${get_result.info.date}\n`
+                    ini_txt += `Lirik :\n ${get_result.lirik}\n`
+                    thumbnail = await getBuffer(get_result.image)
+                    await fzn.sendMessage(from, thumbnail, image, { quoted: msg, caption: ini_txt })
+                    get_audio = await getBuffer(get_result.audio[0].link)
+                    await fzn.sendMessage(from, get_audio, audio, { mimetype: 'audio/mp4', filename: `${get_result.info.song}.mp3`, quoted: msg })
+                    break 
                     
-
-
                     
                 
 			}

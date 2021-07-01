@@ -45,4 +45,4 @@ if (args.length < 1) return fzn.sendMessage(from, `Diperlukan kode bahasa!!, ket
 			}
 			
 		})();		
-//Other BY Fazone
+//Other BY Fadlan
